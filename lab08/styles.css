@@ -14,3 +14,15 @@ nav a:hover {background-color: #0000bb;}
 
 nav a {color: #ffffff;}
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
