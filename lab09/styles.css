@@ -40,3 +40,9 @@ nav a {color: #ffffff;}
     box-sizing: border-box;
 }
 
+.column iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
