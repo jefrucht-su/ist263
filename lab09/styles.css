@@ -17,13 +17,9 @@ nav {
 nav a:hover { background-color: #0000bb; }
 nav a { color: #ffffff; }
 
-.left { float: left; }
-.right { float: right; }
-.clear { clear: both; }
-
 .row {
     display: flex;
-    flex-wrap: nowrap;       /* do NOT wrap to new line */
+    flex-wrap: nowrap;
     gap: 20px;
     margin-bottom: 20px;
     justify-content: space-between;
