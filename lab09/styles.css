@@ -40,3 +40,10 @@ nav a { color: #ffffff; }
     border: 0;
 }
 
+.skillstable table {
+    margin: 0 auto;
+}
+
+.skillsimage {
+    text-align: center;
+}
