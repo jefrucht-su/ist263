@@ -48,10 +48,11 @@ nav a { color: #ffffff; }
 }
 
 .skillstable {
-    flex: 1 1 50%;
+    flex: 0 0 50%; /* table takes 50% of the row */
 }
 
 .skillsimage {
-    flex: 0 0 auto;
+    flex: 0 0 50%; /* image takes the remaining 50% */
     text-align: center;
 }
+
