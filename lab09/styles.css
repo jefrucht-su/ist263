@@ -40,6 +40,13 @@ nav a { color: #ffffff; }
     border: 0;
 }
 
+.firstrow {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .skillstable table {
     margin: 0 auto;
 }
