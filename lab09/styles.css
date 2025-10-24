@@ -23,19 +23,19 @@ nav a { color: #ffffff; }
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;       /* do NOT wrap to new line */
     gap: 20px;
     margin-bottom: 20px;
     justify-content: space-between;
 }
 
 .column {
-    flex-basis: 50%;
+    flex: 1 1 45%;
     padding: 15px;
     background-color: #eeeeee;
     border-radius: 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 
 .column iframe {
