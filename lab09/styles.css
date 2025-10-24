@@ -43,14 +43,15 @@ nav a { color: #ffffff; }
 .firstrow {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
-.skillstable table {
-    margin: 0 auto;
+.skillstable {
+    flex: 1 1 50%;
 }
 
 .skillsimage {
+    flex: 0 0 auto;
     text-align: center;
 }
