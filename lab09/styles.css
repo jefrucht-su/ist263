@@ -39,6 +39,7 @@ nav a {color: #ffffff;}
     background-color: #eeeeee;
     border-radius: 10px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .column iframe {
