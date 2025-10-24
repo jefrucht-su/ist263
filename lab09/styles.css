@@ -47,12 +47,11 @@ nav a { color: #ffffff; }
     align-items: flex-start;
 }
 
-.skillstable {
-    flex: 0 0 50%;
+.skillstable table {
+    margin: 0 auto;  /* centers the table horizontally within its container */
 }
 
 .skillsimage {
-    flex: 0 0 50%;
-    text-align: center;
+    text-align: center;  /* centers the image within its container */
 }
 
