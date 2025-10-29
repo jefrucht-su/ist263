@@ -55,3 +55,6 @@ nav a { color: #ffffff; }
     text-align: center;  /* centers the image within its container */
 }
 
+.headshot {
+    max-width: 100%;
+}
