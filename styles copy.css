@@ -1,0 +1,57 @@
+body {
+    background-color: #ff0000;
+    color: #000000;
+    font-family: Verdana, sans-serif;
+}
+
+a:link { color: #0000ff; }
+
+h1 { color: #808080; }
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a:hover { background-color: #0000bb; }
+nav a { color: #ffffff; }
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1 1 45%;
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.firstrow {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skillstable table {
+    margin: 0 auto;  /* centers the table horizontally within its container */
+}
+
+.skillsimage {
+    text-align: center;  /* centers the image within its container */
+}
+
