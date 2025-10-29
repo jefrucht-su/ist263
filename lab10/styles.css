@@ -65,6 +65,8 @@ nav a { color: #ffffff; }
 }
 @media only screen and (max-width:800px) {
     nav a {width: 100%;
-    display: block;}
+    display: block;
+    padding: 10px 0;
+    margin: 5px 0;}
     nav span {display: none;}
 }
