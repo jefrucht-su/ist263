@@ -58,3 +58,7 @@ nav a { color: #ffffff; }
 .headshot {
     max-width: 100%;
 }
+
+.row {
+    flex-wrap: wrap;
+}
