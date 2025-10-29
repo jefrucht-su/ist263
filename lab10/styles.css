@@ -62,3 +62,7 @@ nav a { color: #ffffff; }
 .row {
     flex-wrap: wrap;
 }
+    @media only screen and (max-width:800px) {
+        nav a {width: 100%;
+        display: block;}
+}
