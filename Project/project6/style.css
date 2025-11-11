@@ -21,17 +21,22 @@ nav a:hover {color: #ff671f;}
 
 .page-content {
   display: flex;
-  align-items: flex-start;
   padding: 20px;
   gap: 20px;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 section {
   flex: 1;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
+  margin-bottom: 0;
+}
+
+h1, h2, h3, p {
+  margin: 8px 0;
 }
 
 @media only screen and (max-width:800px) {
