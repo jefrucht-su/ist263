@@ -49,11 +49,11 @@ nav a { color: #ffffff; }
 }
 
 .skillstable table {
-    margin: 0 auto;  /* centers the table horizontally within its container */
+    margin: 0 auto;
 }
 
 .skillsimage {
-    text-align: center;  /* centers the image within its container */
+    text-align: center;
 }
 
 .headshot {
