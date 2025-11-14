@@ -61,6 +61,29 @@ section:nth-of-type(2) img {
   align-self: stretch;
 }
 
+.bottombanner {
+  background-color: #1d428a;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.nextbutton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nextbutton:hover {
+  color: #ff8d4a;
+}
+
 @media only screen and (max-width:800px) {
     nav a {width: 100%;
     display: block;
