@@ -4,9 +4,24 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-a:link { color: #0000ff; }
+a:link { 
+    color: #0000ff; 
+}
 
-h1 { color: #808080; }
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #660000;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
 
 nav {
     background-color: #000000;
@@ -73,28 +88,12 @@ nav a:hover {
     max-width: 100%;
 }
 
-.row {
-    flex-wrap: wrap;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1rem;
-}
-
 table, th, td, caption {
     font-size: 1.25rem;
 }
 
 input, textarea, label {
     font-size: 1.25rem;
-}
-
-h2 {
-    font-size: 1.5rem;
 }
 
 .skip {
@@ -125,5 +124,7 @@ h2 {
         padding: 10px 0;
         margin: 2.5px 0;
     }
-    nav span { display: none; }
+    nav span { 
+        display: none; 
+    }
 }
