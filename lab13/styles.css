@@ -8,6 +8,7 @@ a:link { color: #0000ff; }
 
 h1 { color: #808080; }
 
+/* Nav styling */
 nav {
     background-color: #000000;
     padding: 10px;
@@ -15,8 +16,17 @@ nav {
     color: #ffffff;
 }
 
-nav a:hover { background-color: #0000bb; }
-nav a { color: #ffffff; }
+nav a {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #3333ff;
+    color: #ffffff;
+}
 
 .row {
     display: flex;
@@ -84,33 +94,34 @@ h2 {
     font-size: 1.5rem;
 }
 
+/* Skip link fixes for WAVE */
 .skip {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-
-  /* NEW fixes for WAVE */
-  color: #000000;  
-  background-color: transparent;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .skip:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  padding: 8px;
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: #ffffff; 
+    color: #000000;            
+    font-weight: bold;
 }
 
 @media only screen and (max-width:800px) {
-    nav a {width: 100%;
-    display: block;
-    padding: 10px 0;
-    margin: 2.5px 0;}
-    nav span {display: none;}
+    nav a {
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+        margin: 2.5px 0;
+    }
+    nav span { display: none; }
 }
