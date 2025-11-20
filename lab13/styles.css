@@ -91,12 +91,20 @@ h2 {
   width: 1px;
   height: 1px;
   overflow: hidden;
+
+  /* NEW fixes for WAVE */
+  color: #000000;  
+  background-color: transparent;
 }
 
 .skip:focus {
   position: static;
   width: auto;
   height: auto;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
 }
 
 @media only screen and (max-width:800px) {
