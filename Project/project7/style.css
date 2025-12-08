@@ -1,0 +1,93 @@
+body {
+  background-color: #f2f2f2;
+  color: #222;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #1d428a;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+}
+
+nav a:hover {color: #ff671f;}
+
+.page-content {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+section {
+  flex: 1;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 0;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1, h2, h3, p {
+  margin: 8px 0;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+}
+
+#left img,
+section:nth-of-type(2) img {
+  flex-grow: 1;
+  object-fit: cover;
+  align-self: stretch;
+}
+
+.bottombanner {
+  background-color: #1d428a;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.nextbutton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nextbutton:hover {
+  color: #ff8d4a;
+}
+
+@media only screen and (max-width:800px) {
+    nav a {width: 100%;
+    display: block;
+    padding: 4px 0;
+    margin: 0;}
+    nav span {display: none;}
+}
