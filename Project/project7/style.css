@@ -17,7 +17,9 @@ nav a {
   margin: 0 15px;
 }
 
-nav a:hover {color: #ff671f;}
+nav a:hover {
+  color: #ff671f;
+}
 
 .page-content {
   display: flex;
@@ -73,99 +75,167 @@ section:nth-of-type(2) img {
 }
 
 .nextbutton {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .nextbutton:hover {
-    color: #ff671f;
+  color: #ff671f;
 }
 
+/* Players page */
 .player-layout {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 30px;
 }
 
 .player-indiv {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .player-indiv h2 {
-    color: #1d428a;
-    margin-bottom: 10px;
+  color: #1d428a;
+  margin-bottom: 10px;
 }
 
 .player-indiv img {
-    width: 100%;
-    max-height: 250px;
-    object-fit: contain;
-    border-radius: 8px;
-    margin: 10px 0;
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 10px 0;
 }
 
-
 .player-indiv p {
-    color: #222;
-    font-size: 15px;
-    line-height: 1.4;
+  color: #222;
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 .players-banner {
-    background-color: #1d428a;
-    margin: 20px;
-    height: 200px;
-    border-radius: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 0 30px;
+  background-color: #1d428a;
+  margin: 20px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
 }
 
 .banner-closer {
-    color: white;
-    text-align: center;
-    margin: 0;
-    font-size: 24px;
-    flex-grow: 1;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  flex-grow: 1;
 }
 
+
+.moments-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 1970s | 1990s group | 2000–Present */
+  gap: 25px;
+  padding: 30px;
+}
+
+.decade-name {
+  text-align: center;
+  color: #1d428a;
+  margin: 0 0 12px 0;
+}
+
+.moment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.nineties-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nineties-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.moment-indiv {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.moment-indiv h3 {
+  color: #1d428a;
+  margin-bottom: 8px;
+}
+
+.moment-indiv p {
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.moment-indiv iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive tweaks */
 @media (max-width: 800px) {
-    .player-layout {
-        grid-template-columns: 1fr;
-        padding: 15px;
-    }
+  .player-layout {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .moments-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .nineties-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .centered-90s {
+    grid-column: 1;
+    margin: 20px 0 10px 0;
+    text-align: center;
+  }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
+  nav a {
+    width: 100%;
+    display: block;
+    padding: 4px 0;
+    margin: 0;
+  }
 
-    nav a {
-        width: 100%;
-        display: block;
-        padding: 4px 0;
-        margin: 0;
-    }
+  nav span {
+    display: none;
+  }
 
-    nav span {
-        display: none;
-    }
-    section {
-        min-height: auto;
-        justify-content: flex-start;
-    }
+  section {
+    min-height: auto;
+    justify-content: flex-start;
+  }
 
-    section img {
-        margin-top: 10px;
-    }
+  section img {
+    margin-top: 10px;
+  }
 }
