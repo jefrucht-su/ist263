@@ -195,7 +195,6 @@ section:nth-of-type(2) img {
   border-radius: 8px;
 }
 
-/* Responsive tweaks */
 @media (max-width: 800px) {
   .player-layout {
     grid-template-columns: 1fr;
