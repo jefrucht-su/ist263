@@ -247,6 +247,9 @@ section:nth-of-type(2) img {
   border-radius: 8px;
 }
 
+iframe {
+    border: none;
+}
 
 @media (max-width: 800px) {
 
