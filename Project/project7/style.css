@@ -67,7 +67,8 @@ nav a:hover {
 }
 
 .dropdown-links a:hover {
-  background-color: #ff671f;
+    background-color: transparent;
+    color: #ff671f;
 }
 
 
