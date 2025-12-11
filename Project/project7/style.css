@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 
+/* NAV BAR */
 nav {
   background-color: #1d428a;
   padding: 10px;
@@ -67,12 +68,11 @@ nav a:hover {
 }
 
 .dropdown-links a:hover {
-    background-color: transparent;
-    color: #ff671f;
+  color: #ff671f;
+  background-color: rgba(255, 103, 31, 0.12);
 }
 
-
-
+/* PAGE LAYOUT */
 .page-content {
   display: flex;
   padding: 20px;
@@ -115,6 +115,7 @@ section:nth-of-type(2) img {
   align-self: stretch;
 }
 
+/* BOTTOM BANNER */
 .bottombanner {
   background-color: #1d428a;
   height: 200px;
@@ -140,6 +141,7 @@ section:nth-of-type(2) img {
   color: #ff671f;
 }
 
+/* PLAYERS PAGE */
 .player-layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -192,6 +194,7 @@ section:nth-of-type(2) img {
   flex-grow: 1;
 }
 
+/* MOMENTS PAGE */
 .moments-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -244,12 +247,10 @@ section:nth-of-type(2) img {
   border-radius: 8px;
 }
 
-@media (max-width: 800px) {
-  .player-layout {
-    grid-template-columns: 1fr;
-    padding: 15px;
-  }
 
+@media (max-width: 800px) {
+
+  .player-layout,
   .moments-grid {
     grid-template-columns: 1fr;
     padding: 15px;
@@ -259,40 +260,22 @@ section:nth-of-type(2) img {
     grid-template-columns: 1fr;
   }
 
-  .dropdown-links {
-    position: relative;
-    box-shadow: none;
-    background-color: #1d428a;
-  }
-
-  .dropdown-menu:hover .dropdown-links {
-    display: block;
-  }
-
+  
   .dropdown-button {
     display: none;
   }
-}
 
-@media only screen and (max-width: 800px) {
-  nav a {
-    width: 100%;
-    display: block;
-    padding: 4px 0;
-    margin: 0;
+  .dropdown-links {
+    display: block !important;
+    position: static;
+    background: none;
+    box-shadow: none;
+    text-align: center;
   }
 
-  nav span {
-    display: none;
-  }
-
-  section {
-    min-height: auto;
-    justify-content: flex-start;
-  }
-
-  section img {
-    margin-top: 10px;
+  .dropdown-links a {
+    padding: 10px 0;
   }
 }
+
 
