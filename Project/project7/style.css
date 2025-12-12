@@ -36,7 +36,7 @@ nav a:hover {
   background: none;
   border: none;
   color: white;
-  font-size: 1.125rem;
+  font-size: 18px;
   cursor: pointer;
   padding: 5px 10px;
 }
@@ -128,7 +128,7 @@ section:nth-of-type(2) img {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 1.4rem;
+  font-size: 22px;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
@@ -155,7 +155,6 @@ section:nth-of-type(2) img {
 .player-indiv h2 {
   color: #1d428a;
   margin-bottom: 10px;
-  font-size: 1.5rem;
 }
 
 .player-indiv img {
@@ -168,7 +167,7 @@ section:nth-of-type(2) img {
 
 .player-indiv p {
   color: #222;
-  font-size: 0.94rem;
+  font-size: 15px;
   line-height: 1.4;
 }
 
@@ -187,7 +186,7 @@ section:nth-of-type(2) img {
   color: white;
   text-align: center;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 24px;
   flex-grow: 1;
 }
 
@@ -202,7 +201,6 @@ section:nth-of-type(2) img {
   text-align: center;
   color: #1d428a;
   margin: 0 0 12px 0;
-  font-size: 1.5rem;
 }
 
 .moment-section {
@@ -211,8 +209,25 @@ section:nth-of-type(2) img {
   gap: 25px;
 }
 
+.nineties-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nineties-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.moment-indiv {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 .moment-indiv h3 {
-  font-size: 1.125rem;
   color: #1d428a;
   margin-bottom: 8px;
 }
@@ -222,12 +237,16 @@ section:nth-of-type(2) img {
   margin-bottom: 12px;
 }
 
+.moment-indiv iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
 iframe {
   border: none;
 }
 
 @media (max-width: 800px) {
-
   .player-layout,
   .moments-grid {
     grid-template-columns: 1fr;
@@ -254,6 +273,7 @@ iframe {
     padding: 10px 0;
   }
 }
+
 
 
 
