@@ -5,7 +5,6 @@ body {
   margin: 0;
 }
 
-
 nav {
   background-color: #1d428a;
   padding: 10px;
@@ -37,7 +36,7 @@ nav a:hover {
   background: none;
   border: none;
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem;
   cursor: pointer;
   padding: 5px 10px;
 }
@@ -71,7 +70,6 @@ nav a:hover {
   color: #ff671f;
   background-color: rgba(255, 103, 31, 0.12);
 }
-
 
 .page-content {
   display: flex;
@@ -115,7 +113,6 @@ section:nth-of-type(2) img {
   align-self: stretch;
 }
 
-/* BOTTOM BANNER */
 .bottombanner {
   background-color: #1d428a;
   height: 200px;
@@ -131,7 +128,7 @@ section:nth-of-type(2) img {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
@@ -141,7 +138,6 @@ section:nth-of-type(2) img {
   color: #ff671f;
 }
 
-/* PLAYERS PAGE */
 .player-layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -159,6 +155,7 @@ section:nth-of-type(2) img {
 .player-indiv h2 {
   color: #1d428a;
   margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 
 .player-indiv img {
@@ -171,7 +168,7 @@ section:nth-of-type(2) img {
 
 .player-indiv p {
   color: #222;
-  font-size: 15px;
+  font-size: 0.94rem;
   line-height: 1.4;
 }
 
@@ -190,10 +187,9 @@ section:nth-of-type(2) img {
   color: white;
   text-align: center;
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   flex-grow: 1;
 }
-
 
 .moments-grid {
   display: grid;
@@ -206,6 +202,7 @@ section:nth-of-type(2) img {
   text-align: center;
   color: #1d428a;
   margin: 0 0 12px 0;
+  font-size: 1.5rem;
 }
 
 .moment-section {
@@ -214,25 +211,8 @@ section:nth-of-type(2) img {
   gap: 25px;
 }
 
-.nineties-group {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.nineties-columns {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-}
-
-.moment-indiv {
-  background-color: white;
-  padding: 15px;
-  border-radius: 10px;
-}
-
 .moment-indiv h3 {
+  font-size: 1.125rem;
   color: #1d428a;
   margin-bottom: 8px;
 }
@@ -242,13 +222,8 @@ section:nth-of-type(2) img {
   margin-bottom: 12px;
 }
 
-.moment-indiv iframe {
-  width: 100%;
-  border-radius: 8px;
-}
-
 iframe {
-    border: none;
+  border: none;
 }
 
 @media (max-width: 800px) {
@@ -263,7 +238,6 @@ iframe {
     grid-template-columns: 1fr;
   }
 
-  
   .dropdown-button {
     display: none;
   }
@@ -280,5 +254,6 @@ iframe {
     padding: 10px 0;
   }
 }
+
 
 
